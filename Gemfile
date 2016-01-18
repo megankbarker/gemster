@@ -41,6 +41,10 @@ gem 'sass-rails'
 # Use will_paginate for pagination
 gem 'will_paginate', '3.1.0'
 
+# Use simple form to build forms
+gem 'simple_form'
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
