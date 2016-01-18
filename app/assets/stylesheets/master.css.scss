@@ -1,3 +1,4 @@
+
 .booyah-box {
 	-moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
 	-webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -16,10 +17,14 @@ h1, h2, h3, h4 {
 body {
 	background: url('/assets/stitched_wool.png');
 	font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
-
 }
 .navbar.navbar-inverse {
 	background: url('/assets/noisy_net.png');
 	border-radius: 0;
-
+}
+.navbar-inverse .navbar-brand {
+	color: #8AEDE7;
+	font-family: 'glacial_indifferenceregular', sans-serif;
+	font-size: 26px;
+	font-weight: bold;
 }
