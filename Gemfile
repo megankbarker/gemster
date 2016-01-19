@@ -47,6 +47,12 @@ gem 'simple_form'
 # Use devise for user authentication
 gem 'devise', '>= 3.2.4'
 
+# Use geocoder for geocoding data
+gem 'geocoder'
+
+# Add values to the ENV on localhost
+gem 'figaro', '>=1.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
