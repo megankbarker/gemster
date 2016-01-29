@@ -6,6 +6,9 @@ gem 'rails', '4.0.1'
 # Use CarrierWave to upload files
 gem 'carrierwave'
 
+# Use fog for carrierwave to be able to communicate with Amazon S3
+gem 'fog', '~> 1.3.1'
+
 # Use postgresql as the database for Active Record
 gem 'pg'
 
@@ -53,7 +56,7 @@ gem 'devise', '>= 3.2.4'
 # Use geocoder for geocoding data
 gem 'geocoder'
 
-# Add values to the ENV on localhost
+# Add values to the ENV on localhost to keep sensitive information out of git
 gem 'figaro', '>=1.0'
 
 # Use ActiveModel has_secure_password
