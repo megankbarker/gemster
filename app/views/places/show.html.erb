@@ -99,9 +99,8 @@ function initMap() {
 
 <h1 class="pull-left">Photos</h1>
  <div class="clear"></div>
-<div class="photoframe">
  <% @place.photos.each do |photo| %>
-    <div class="photoframe col-xs-12 col-sm-6">
+     <div class="booyah-box col-xs-4 col-xs-offset-1">
       <%= image_tag photo.picture, :class => 'img-responsive' %> 
       <%= photo.caption %>
     </div>

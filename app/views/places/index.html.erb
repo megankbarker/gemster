@@ -5,8 +5,10 @@
 	  <i><%= place.address %></i><br /><br />
 	  <p><%= place.description %></p><br />
 	  <% if place.photos.last.present? && place.photos.last.picture.present? %>
-	  <div class="photoframe col-xs-12 col-sm-6">
+	  <div class="col-xs-12 col-sm-6">
+	  <photoframe>
 	  <p><%= image_tag place.photos.last.picture %></p>
+	  </photoframe>
 	  </div>
 	  <% end %>
 
