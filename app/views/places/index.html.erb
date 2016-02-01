@@ -11,7 +11,7 @@
     <div class="item active">
       <%= image_tag 'slider1.jpg', class: 'img-responsive' %>
       <div class="carousel-caption">
-        Stunning ocean views
+        Big Sur Beaches
       </div>
     </div>
     <div class="item">
@@ -23,7 +23,7 @@
     <div class="item">
       <%= image_tag 'slider5.jpg', class: 'img-responsive'  %>
       <div class="carousel-caption">
-        Redwood forests
+        Redwood Forests
       </div>
   </div>
 
@@ -73,34 +73,3 @@
   </div>
 <% end %>
 </div>
-
-<div class="clear"></div>
- <script>
-
-function initMap() {
-	var markers = [];
-  <% @places.each do |place| %>
-	<% if place.latitude.present? && place.longitude.present? %>
-      markers.push({name: "<%= place.name %>", location: {lat: <%= place.latitude %>, lng: <%= place.longitude %>}});
-    <% end %>
-  <% end %>
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 10,
-    center: {lat: 36.0851211547852, lng: -121.547515869141}
-  });
-  function addMarkerToMap(element, index, array) {  
-  	new google.maps.Marker({
-    position: element.location,
-    map: map,
-    title: element.name
-  	});
-  };
-
-  markers.forEach(addMarkerToMap);
-  
-}
-
-    </script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"></script>
-<div id="map"></div>
