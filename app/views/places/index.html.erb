@@ -46,8 +46,12 @@
 	  <br />
 	  <i><%= place.address %></i><br /><br />
 	  <p><%= place.description %></p><br />
-	  <% if place.comments.present? %>
-	  
+
+    <% if place.user.present? %>
+    <small><%= place.user.email %></small>
+    <% end %>
+
+    <% if place.comments.present? %>
   		<blockquote>
     	  <% if place.comments.first.humanized_rating.present? %>
       		<b><%= place.comments.first.humanized_rating %></b> -
@@ -68,6 +72,8 @@
 
   </div>
 <% end %>
+</div>
+
 <div class="clear"></div>
  <script>
 
