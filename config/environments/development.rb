@@ -11,7 +11,7 @@ Gemster::Application.configure do
   #   password: ENV['GMAIL_PASSWORD']
 
   # }
-
+  # config.web_console.whitelisted_ips = '10.0.2.2'
   config.action_mailer.default_url_options = { host: 'localhost:3030' }
   # Settings specified here will take precedence over those in config/application.rb.
 

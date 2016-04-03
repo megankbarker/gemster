@@ -1,13 +1,17 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.1'
+gem 'rails', '4.2.5'
 
 # Use CarrierWave to upload files
-gem 'carrierwave'
+# gem 'carrierwave'
+gem 'carrierwave-aws'
 
 # Use fog for carrierwave to be able to communicate with Amazon S3
-gem 'fog', '~> 1.3.1'
+gem 'fog'
+
+# Nokogiri
+gem 'nokogiri', '~> 1.6', '>= 1.6.7.2'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
