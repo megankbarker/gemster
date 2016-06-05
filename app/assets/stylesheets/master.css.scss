@@ -9,15 +9,15 @@
 	margin-top:10px;
 	margin-bottom:15px;
 	padding:20px;
-	border-radius:10px;
+	//border-radius:10px;
 }
 h1, h2, h3, h4 {
 	margin:0;
 	padding:0;
 }
 body {
-	background: url('/assets/stitched_wool.png');
-	font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+	background: #eeeeee;//url('/assets/stitched_wool.png');
+	font-family: 'glacial_indifferenceregular', sans-serif;
 }
 .navbar.navbar-inverse {
 	background: url('/assets/noisy_net.png');
@@ -66,7 +66,7 @@ blockquote p {
   display: inline;
 }
 .photoframe {
-    -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
 	-webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
 	box-shadow: 1px 1px 2px 0 #d0d0d0;
 	background: #fff;
@@ -85,14 +85,14 @@ blockquote p {
     }
   }
   .carousel {
-  	box-shadow: 0px 3px 8px #2a2a2a;
+  	//box-shadow: 0px 3px 8px #2a2a2a;
   }
  .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   	height: 550px;
   	width: 100%;
   }
 .carousel-caption {
-	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'glacial_indifferenceregular', sans-serif;
 	font-size: 60px;
 	font-weight:100;
 	text-shadow: rgba(0,0,0,0.95) 2px 2px;
@@ -106,7 +106,7 @@ blockquote p {
 	margin: 0 auto; 
 }
 .pagination {
-	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'glacial_indifferenceregular', sans-serif;
 	font-size: 20px;
 }
 
