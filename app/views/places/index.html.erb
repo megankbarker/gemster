@@ -74,11 +74,6 @@
 </div>
 
 <div class="clear"></div>
-
-<div class="pagination-wrapper">
-<div class="pagination">
-<%= will_paginate @places %>
-</div>
 </div>
 
 <div class="google maps markers">
@@ -121,4 +116,10 @@ function initMap() {
          src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"></script>        
  <div id="map"></div>
 
+</div>
+<br/>
+<br class="clr" />
+<div class="pagination-wrapper">
+<div class="pagination">
+<%= will_paginate @places %>
 </div>
