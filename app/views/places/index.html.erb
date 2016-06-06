@@ -81,5 +81,46 @@
 </div>
 </div>
 
+<class="clear"/>
+<h1>Locations</h1>
+<div class="locations">
+<!-- google maps showing all markers on a single map -->
+<script>
+function initMap() {
+  var markers = [];
+  <% @places.each do |place| %>
+  <% if place.latitude.present? && place.longitude.present? %>
+      markers.push({name: "<%= place.name %>", location: {lat: <%= place.latitude %>, lng: <%= place.longitude %>}});
+    <% end %>
+  <% end %>
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 10,
+    center: {lat: 36.4799, lng: -121.7328}
+  });
+  var infowindow = new google.maps.InfoWindow();
+  
+  var addMarkerToMap = function (element, index, array) {  
+    var marker = new google.maps.Marker({
+      position: element.location,
+      map: map,
+      title: element.name
+    });
+    google.maps.event.addListener(marker, 'click', function() { 
+       infowindow.setContent(marker.title); 
+       console.log("I have been clicked");
+       infowindow.open(map, this);
+    }); 
+    return marker;
+  };
+  markers.forEach(addMarkerToMap); 
+}
+</script>
 
+     <script async defer
+         src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"></script>        
+ <div id="map"></div>
+
+</div>
+<br/>
+<br class="clr" />
 <div class="clear"></div>
