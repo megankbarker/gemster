@@ -160,10 +160,6 @@ h2 { padding-top: 20px; }
 h2:first-of-type { padding-top: 0; }
 ul { padding: 0; }
 
-.pagination {
-  height: 80px;
-  margin: 40px 200px 40px 200px;
-}
 
 div.pagination ul {
   display: inline-block;
@@ -183,8 +179,8 @@ div.pagination ul {
   display: inline;
 }
 .pagination a {
-  float: left;
-  padding: 0 14px;
+  //float: left;
+  padding: 5px 14px;
   line-height: 34px;
   text-decoration: none;
   background-color: #f1f1f1;
@@ -206,9 +202,7 @@ div.pagination ul {
   cursor: default;
   border: 3px solid #FFFFFF;
 }
-span.previous_page.disabled {
-  margin-top: 5px;
-}
+
 .pagination li:first-child a {
   border-left-width: 1px;
   -webkit-border-radius: 3px 0 0 3px;
@@ -223,9 +217,9 @@ span.previous_page.disabled {
 .pagination-centered {
   text-align: center;
 }
-.pagination-right {
-  text-align: right;
-}
+// .pagination-right {
+//   text-align: right;
+// }
 .comments {
   background-color: #339966;
 }
