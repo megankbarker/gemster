@@ -6,10 +6,18 @@
 	background: #fff;
 	border: 1px solid #ccc;
 	border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
-	margin-top:10px;
-	margin-bottom:15px;
-	padding:20px;
+  border-radius: 5px;
+	margin-top:5px;
+	margin-bottom:5px;
+	padding:15px;
 	border:10px;
+}
+
+.booyah-box h1 {
+  font-size: 22px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
 }
 
 h1, h2, h3, h4 {
@@ -17,7 +25,7 @@ h1, h2, h3, h4 {
 	padding:0;
 }
 body {
-	background: #eeeeee;
+	// background: #eeeeee;
 	font-family: montserratultra_light, Arial, sans-serif;
 }
 .navbar.navbar-inverse {
@@ -47,7 +55,7 @@ button.btn.btn-default.navbar-btn {
 	padding: 8px;
 }
 #map {
-    height: 500px;
+  height: 300px;
 }
 #map-popup-pane {
   
@@ -89,9 +97,9 @@ blockquote p {
 	background: #fff;
 	border: 1px solid #ccc;
 	border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
-	margin-top:10px;
-	margin-bottom:15px;
-	padding:20px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:0px;
 }
 .index-photoframe {
   	position: relative;
@@ -99,6 +107,8 @@ blockquote p {
     img {
     	width: 100%;
     	display: block;
+      border-radius: 5px;
+      border: 1px solid #2a2a2a;
     }
 }
 .carousel {
@@ -125,6 +135,10 @@ blockquote p {
 .pagination {
 	font-family: 'glacial_indifferenceregular', sans-serif;
 	font-size: 20px;
+}
+
+.background-lightgray {
+    background-color: #eeeeee;
 }
 
 
