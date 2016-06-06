@@ -18,14 +18,17 @@ h1, h2, h3, h4 {
 }
 body {
 	background: #eeeeee;
-	font-family: sans-serif;
+	font-family: montserratultra_light, Arial, sans-serif;
 }
 .navbar.navbar-inverse {
 	background: url('/assets/noisy_net.png');
 	border-radius: 0;
-	box-shadow: 0px 1px 3px #2a2a2a;
+	//border-bottom: 2px solid #339966;
 	margin-bottom: 0;
   font-size: 18px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #cecece;
 }
 .navbar-inverse .navbar-brand {
 	color: #339966;
@@ -34,7 +37,7 @@ body {
 	font-weight: bold;
 }
 button.btn.btn-default.navbar-btn {
-  background-color: #80d5ab;
+  background-color: #26734d;
   font-size: 18px;
 }
 .field_with_errors {
@@ -44,7 +47,7 @@ button.btn.btn-default.navbar-btn {
 	padding: 8px;
 }
 #map {
-    height: 300px;
+    height: 500px;
 }
 #map-popup-pane {
   
@@ -52,6 +55,14 @@ button.btn.btn-default.navbar-btn {
 
 .clear {
 	clear: both;
+}
+
+h1 {
+  font-family: montserratultra_light, Arial, sans-serif;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 30px;
 }
 blockquote {
   background: #f9f9f9;
@@ -81,22 +92,22 @@ blockquote p {
 	margin-top:10px;
 	margin-bottom:15px;
 	padding:20px;
-  }
- .index-photoframe {
+}
+.index-photoframe {
   	position: relative;
     display: block;
     img {
     	width: 100%;
     	display: block;
     }
-  }
-  .carousel {
+}
+.carousel {
   background-color: rgba(0,0,0,0.1);
-  }
- .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
   	height: 550px;
   	width: 100%;
-  }
+}
 .carousel-caption {
 	font-family: sans-serif;
 	font-size: 60px;

@@ -28,17 +28,15 @@
           <i class="glyphicon glyphicon-plus-sign"></i>New Place
           <% end %>
           </li>
-
         </ul>
         <ul class="nav navbar-nav navbar-right">
+          <li><%= link_to 'Map', map_path %></li>
           <% if user_signed_in? %>
             <li><%= link_to 'My Profile', user_path(current_user) %></li>
             <li><%= link_to 'Sign out', destroy_user_session_path, method: :delete %></li>
           <% else %>
             <li><%= link_to 'Sign in', new_user_session_path %></li>
-            <button type="button" class="btn btn-default navbar-btn"><%= link_to 'Sign up', new_user_registration_path %></button>
-            <!-- <li><%= link_to 'Sign up', new_user_registration_path %></li> -->
-            <li><%= link_to 'Map', map_path %></li>
+            <li><%= link_to 'Sign up', new_user_registration_path %></li>
           <% end %>
         </ul>
       </div><!-- /.navbar-collapse -->
