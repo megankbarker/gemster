@@ -2,6 +2,7 @@ Gemster::Application.routes.draw do
   devise_for :users
   # devise_for :installs
   root 'places#index'
+  get 'map', to: 'places#map'
   resources :places do
     resources :comments, only: :create
     resources :photos, only: :create
