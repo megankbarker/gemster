@@ -24,6 +24,11 @@ h1, h2, h3, h4 {
 	margin:0;
 	padding:0;
 }
+
+h1.pull-left {
+  margin-left: 30px;
+}
+
 body {
 	// background: #eeeeee;
 	font-family: montserratultra_light, Arial, sans-serif;
