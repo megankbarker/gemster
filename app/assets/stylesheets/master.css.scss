@@ -13,11 +13,32 @@
 	border:10px;
 }
 
+
+.header-box {
+//   // -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+//   // -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+//   // box-shadow: 1px 1px 2px 0 #d0d0d0;
+//   background: #fff;
+//   border: 1px solid #ccc;
+//   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+//   border-radius: 5px;
+  margin-top:120px;
+  margin-left: 50px;
+//   margin-bottom:5px;
+//   padding:15px;
+//   border:10px;
+ }
+
 .booyah-box h1 {
   font-size: 22px;
   text-align: left;
   margin: 0;
   padding: 0;
+}
+
+.header-box h1 {
+  font-size: 52px;
+  text-align: left;
 }
 
 h1, h2, h3, h4 {
@@ -52,6 +73,13 @@ body {
 button.btn.btn-default.navbar-btn {
   background-color: #26734d;
   font-size: 18px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    margin-top: 50px;
 }
 .field_with_errors {
 	color: #ff3333;
@@ -115,13 +143,7 @@ blockquote p {
       border-radius: 5px;
     }
 }
-.carousel {
-  background-color: rgba(0,0,0,0.1);
-}
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-  	height: 550px;
-  	width: 100%;
-}
+
 .carousel-caption {
   font-family: montserratultra_light, Arial, sans-serif;
 	font-size: 60px;
@@ -220,9 +242,17 @@ div.pagination ul {
 // }
 .comments {
   background-color: #339966;
+  vertical-align: center;
+  margin-top: 50PX;
+  border-top: 5px solid black;
 }
 h1.comments.pull-left {
   color: white;
+  margin-left: 50px;
+}
+h1.photos.pull-left {
+  color: white;
+  margin-left: 50px;
 }
 
 div.places-index-header-container {
@@ -237,7 +267,7 @@ h1.pull-left {
   color: black;
   margin-left: 0px;
   font-family: montserratultra_light, Arial, sans-serif;
-  font-size: 32px;
+  font-size: 46px;
   //font-weight: bold;
 }
 
@@ -246,4 +276,28 @@ hr {
     margin-bottom: 20px;
     border: 0;
     border-top: 1px solid black;
+}
+
+img.img-responsive {
+  vertical-align: center;
+}
+
+// div.header.col-xs-10.col-xs-offset-1 {
+//   margin-top: 100px;
+// }
+
+.places-index-header-container {
+  background: red;
+}
+
+div.index-header {
+  background-color: red;
+}
+
+.carousel {
+  background-color: rgba(0,0,0,0.1);
+}
+.header > img {
+    height: 300px;
+    width: 100%;
 }
