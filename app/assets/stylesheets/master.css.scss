@@ -51,7 +51,7 @@ h1.pull-left {
 }
 
 body {
-	background: #eeeeee;
+	// background: #eeeeee;
 	font-family: montserratultra_light, Arial, sans-serif;
 }
 .navbar.navbar-inverse {
@@ -252,9 +252,7 @@ div.pagination ul {
 // }
 .comments {
   background-color: #339966;
-  vertical-align: center;
-  margin-top: 50PX;
-  border-top: 5px solid black;
+  // margin-top: 50px;
 }
 h1.comments.pull-left {
   color: white;
@@ -328,3 +326,14 @@ p {
 // .location-header-container {
 //   margin-top: 50px;
 // }
+
+.btn-primary {
+  margin-top: 30px;
+  margin-bottom: 60px;
+
+}
+
+.photos {
+  background-color: #339966;
+  vertical-align: center;
+ }
