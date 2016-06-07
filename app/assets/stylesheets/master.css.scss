@@ -102,7 +102,7 @@ h1 {
   font-family: montserratultra_light, Arial, sans-serif;
   font-size: 36px;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 30px;
 }
 blockquote {
@@ -277,8 +277,12 @@ h1.pull-left {
   color: black;
   margin-left: 0px;
   font-family: montserratultra_light, Arial, sans-serif;
-  font-size: 46px;
+  font-size: 48px;
   //font-weight: bold;
+}
+
+h3 {
+  font-size: 28px;
 }
 
 hr {
@@ -311,3 +315,16 @@ div.index-container {
     height: 300px;
     width: 100%;
 }
+.location-text-container {
+  margin-top: 60px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 100px;
+}
+
+p {
+  font-size: 18px;
+}
+// .location-header-container {
+//   margin-top: 50px;
+// }
