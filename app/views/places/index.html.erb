@@ -39,22 +39,17 @@
 </div>
 </div>
 <div class="clear"></div>
-<!-- Places header container --> 
-<div class="places-index-header-container">
-  <!-- <h1 class="pull-left">The Best of Monterey County</h1> -->
+</div>
+<div class="index-container">
+  <div class="booyah-box col-xs-10 col-xs-offset-1"> 
+  <h1 class="pull-left">The Best of Monterey <small>| Off the Beaten Path</small></h1>
 
-  <div class="row col-xs-10 col-xs-offset-1">
-  <br/>
-  <h1 class="pull-left"><em>The Best of Monterey County</em></h1>
-      <br/>
-    </div>
-    <div class="clear"></div>
   </div>
 
 <!-- Places -->
 <% @places.each do |place| %>
-	<div class="booyah-box col-xs-10 col-xs-offset-1"> 
-	<div class="col-sm-8">
+  <div class="booyah-box col-xs-10 col-xs-offset-1"> 
+	<div class="col-sm-8 col-xs-12">
 	  <h2><%= link_to place.name, place_path(place) %></h2>
 	  <br />
 	  <i><%= place.address %></i><br />
@@ -75,7 +70,7 @@
    <% end %>
 	 </div>
 	  <% if place.photos.last.present? && place.photos.last.picture.present? %>
-	  <div class="col-sm-4">
+	  <div class="col-sm-4 col-xs-12">
 	  <div class="index-photoframe">
 	  <%= image_tag place.photos.last.picture %>
 	  </div>
@@ -84,6 +79,7 @@
   </div>
 <% end %>
 </div>
+
 
 <div class="clear"></div>
 <div class="pagination-centered">
