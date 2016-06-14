@@ -9,10 +9,14 @@
   // border-radius: 5px;
  	margin-top:30px;
 	margin-bottom:30px;
- 	padding:15px;
+ 	// padding:15px;
  	// border:10px;
  }
 
+.col-xs-12, .col-sm-4 {
+padding-left: 0px;
+padding-right: 0px;
+}
 
 .header-box {
 //   // -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -293,6 +297,7 @@ hr {
 
 img.img-responsive {
   vertical-align: center;
+  border: 10px solid #eeeeee;
 }
 
 // div.header.col-xs-10.col-xs-offset-1 {
