@@ -146,7 +146,7 @@ blockquote p {
 
 .carousel {
   background-color: rgba(0,0,0,0.1);
-  margin-bottom: 50px; 
+ // margin-bottom: 50px; 
 }   
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {    
@@ -263,13 +263,13 @@ h1.photos.pull-left {
   margin-left: 50px;
 }
 
-div.places-index-header-container {
-background: url('/assets/noisy_net.png');
-background-color: rgba(0,0,0,0.5);
-height: 25px;
-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-}
+// div.places-index-header-container {
+// background: url('/assets/noisy_net.png');
+// background-color: rgba(0,0,0,0.5);
+// height: 25px;
+// box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+// box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+// }
 
 h1.pull-left {
   color: black;
