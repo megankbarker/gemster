@@ -111,22 +111,24 @@ function initMap() {
 
 <div class="clear"></div>
 
-<div class="location-header-container">
-
-  <h1>Photos</h1>
-  </div>
+<div class="photos">
+  <h1 class="photos pull-left">Photos</h1>
  <div class="clear"></div>
  <% @place.photos.each do |photo| %>
  <div class="col-xs-12 col-sm-4">
+    <div class="place-photo">
       <%= image_tag photo.picture, :class => 'img-responsive' %> 
+    </div>
       <%= photo.caption %>
   </div>
 
   <% end %> 
   </div>
-      </div>
-      </div>
+</div>
+
+      
 <div class="clear"></div>
+<div class="col-xs-10 col-xs-offset-1">
 <div class="comments">
   <h1 class="comments pull-left">Comments</h1>
   <div class="clear"></div>
@@ -143,5 +145,6 @@ function initMap() {
   </div>
 
 <% end %>
+  </div>
   </div>
  <div class="clear"></div>

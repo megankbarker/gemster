@@ -257,15 +257,22 @@ div.pagination ul {
 // }
 .comments {
   background-color: #339966;
-  // margin-top: 50px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.photos {
+  background-color: #339966;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 h1.comments.pull-left {
   color: white;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 h1.photos.pull-left {
   color: white;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 // div.places-index-header-container {
@@ -297,19 +304,9 @@ hr {
 
 img.img-responsive {
   vertical-align: center;
+}
+.place-photo {
   border: 10px solid #eeeeee;
-}
-
-// div.header.col-xs-10.col-xs-offset-1 {
-//   margin-top: 100px;
-// }
-
-.places-index-header-container {
-  background: red;
-}
-
-div.index-container {
-  background-color: red;
 }
 
 .carousel {
