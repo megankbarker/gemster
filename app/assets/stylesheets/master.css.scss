@@ -75,11 +75,12 @@ button.btn.btn-default.navbar-btn {
   font-size: 18px;
 }
 
-.btn-primary {
+button.btn.btn-primary.pull-right {
     color: #fff;
     background-color: #337ab7;
     border-color: #2e6da4;
-    margin-top: 50px;
+    margin-top: 20px;
+    // vertical-align: center;
 }
 .field_with_errors {
 	color: #ff3333;
@@ -327,11 +328,11 @@ p {
 //   margin-top: 50px;
 // }
 
-.btn-primary {
-  margin-top: 30px;
-  margin-bottom: 60px;
+// .btn-primary {
+//   margin-top: 30px;
+//   // margin-bottom: 60px;
 
-}
+// }
 
 .photos {
   background-color: #339966;
