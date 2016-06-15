@@ -39,9 +39,7 @@ function initMap() {
     });
 
   var contentString = '<div id="content">'+
-    '<h3>marker.title</h3>' +
-    marker.id + 
-    marker.url + 
+    '<b>' + marker.url + '</b>' + 
     '</div>'
   var infowindow = new google.maps.InfoWindow({
     content: contentString
