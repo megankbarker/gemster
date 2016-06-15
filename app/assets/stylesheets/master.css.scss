@@ -369,10 +369,12 @@ img.img-responsive {
   vertical-align: center;
 }
 .place-photo {
+  position: relative;
+  display: block;
   background-color: white;
   padding: 10px;
   border-radius: 5px;
-  margin-top: 30px;
+  margin: 20px;
 }
 
 .carousel {
