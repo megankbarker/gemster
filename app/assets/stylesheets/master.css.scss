@@ -1,3 +1,16 @@
+.places-index.booyah-box.col-xs-12 {
+  //   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  // -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  // box-shadow: 1px 1px 2px 0 #d0d0d0;
+  // background: #fff;
+  // border: 1px solid #ccc;
+  // border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  // border-radius: 5px;
+  margin-top:30px;
+  margin-bottom:30px;
+  // padding:15px;
+  // border:10px;
+}
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -13,9 +26,17 @@
   border:10px;
 }
 
+
 .col-xs-12, .col-sm-4 {
 padding-left: 0px;
 padding-right: 0px;
+margin-bottom: 35px;
+}
+
+.col-xs-12, .col-sm-8 {
+padding-left: 0px;
+padding-right: 0px;
+margin-bottom: 35px;
 }
 
 .header-box {
@@ -262,9 +283,6 @@ div.pagination ul {
   background: url('stardust.png');
   margin-top: 40px;
   margin-bottom: 10px;
-  border-radius: 5px;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 h1.comments.pull-left {
   color: white;
