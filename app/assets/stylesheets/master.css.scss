@@ -67,7 +67,7 @@
   background: #fff;
   // border: 1px solid #ccc;
   // border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
-  border-radius: 5px;
+  // border-radius: 5px;
   // z-index: 0;
 
 }
@@ -369,7 +369,10 @@ img.img-responsive {
   vertical-align: center;
 }
 .place-photo {
-  border: 10px solid #FFFFFF;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 30px;
 }
 
 .carousel {
