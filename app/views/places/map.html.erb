@@ -1,12 +1,10 @@
- <div class="clear"></div> 
-<div class="location-header-container">
-  <div class="booyah-box col-xs-12">
-  <h1 class="pull-left">Monterey Locations <small>| Treasure Map</small></h1>
+<div>
+<div class="map-box col-xs-12">
+  <div class="map-title">
+  <h1>Monterey Locations |<small> Treasure Map</small></h1>
   <br/>
   </div>
-</div>
-  <div class="clear">
-<div class="locations">
+
 <!-- google maps showing all markers on a single map -->
 <script>
 function initMap() {
@@ -40,13 +38,16 @@ function initMap() {
 </script>
 
      <script async defer
-         src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"></script>        
+         src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"></script>   
  <div id="map"></div>
 
 </div>
-<br/>
 <br class="clr" />
-<div class="location-text-container">
+<br/>
+</div>
+
+<div class="map-page-text col-xs-8 col-xs-offset-2"> 
+
 <h2>Like What You See?</h2>
 <br/>
 <br/>
@@ -57,6 +58,7 @@ function initMap() {
   <p>
   Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. 
 </p>
-</div>
- <div class="clear"></div> 
- </div>
+</div> 
+<br class="clr" />
+<div class="clear"/> <!-- pushes footer to bottom -->
+
