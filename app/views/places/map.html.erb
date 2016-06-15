@@ -11,23 +11,48 @@ function initMap() {
   var markers = [];
   <% @places.each do |place| %>
   <% if place.latitude.present? && place.longitude.present? %>
-      markers.push({name: "<%= place.name %>", location: {lat: <%= place.latitude %>, lng: <%= place.longitude %>}});
+      markers.push({name: "<%= place.name %>", url: "<%= place_path(place) %>", id: '<%=place.id %>', location: {lat: <%= place.latitude %>, lng: <%= place.longitude %>}});
+
     <% end %>
   <% end %>
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 10,
     center: {lat: 36.4799, lng: -121.7328}
   });
-  var infowindow = new google.maps.InfoWindow();
+  // var infowindow = new google.maps.InfoWindow();
+// <% @places.each do |place| %>
   
+  // <% end %>
+  // var infowindow = new google.maps.InfoWindow({
+  //       content: '<a href='marker.url'>marker.title</a>'
+  //   });
+
+
+
   var addMarkerToMap = function (element, index, array) {  
     var marker = new google.maps.Marker({
       position: element.location,
       map: map,
-      title: element.name
+      title: element.name,
+      id: element.id,
+      url: '<a href="/places/' + element.id + '">' + element.name + '</a><br/>'
     });
+
+  var contentString = '<div id="content">'+
+    '<h3>marker.title</h3>' +
+    marker.id + 
+    marker.url + 
+    '</div>'
+  var infowindow = new google.maps.InfoWindow({
+    content: contentString
+  });
+
     google.maps.event.addListener(marker, 'click', function() { 
-       infowindow.setContent(marker.title); 
+    //   var infowindow = new google.maps.InfoWindow({
+    //     content: '<a href='marker.url'>marker.title</a>'
+    // });
+       // infowindow.setContent(marker.id); 
+
        console.log("I have been clicked");
        infowindow.open(map, this);
     }); 
@@ -59,6 +84,7 @@ function initMap() {
   And if you don't see your place here or you know of a place that you'd like to add, you can        <%= link_to 'create a new place', new_place_path %>.
 </p>
 </div> 
+
 <br class="clr" />
 <div class="clear"/> </div><!-- pushes footer to bottom -->
 
