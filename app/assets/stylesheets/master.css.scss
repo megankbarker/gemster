@@ -27,11 +27,19 @@
   border:10px;
 }
 
+// .place-title {
+//   background: rgba(20,60,40,0.3);
+//   border: 10px solid #339966;
+//   horizontal-align: center;
+//   vertical-align: center;
+// }
+
 .place-title {
-  background: rgba(20,60,40,0.6);
-  border: 10px solid #339966;
-  horizontal-align: center;
-  vertical-align: center;
+    background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  border-radius: 5px;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
 }
 .place-title h1 {
   background: white;
