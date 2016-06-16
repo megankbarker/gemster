@@ -1,5 +1,8 @@
 source 'http://rubygems.org'
 
+# Gem to debug sprockets errors
+gem 'sprockets_better_errors'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 
