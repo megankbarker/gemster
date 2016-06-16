@@ -19,15 +19,6 @@ function initMap() {
     zoom: 10,
     center: {lat: 36.4799, lng: -121.7328}
   });
-  // var infowindow = new google.maps.InfoWindow();
-// <% @places.each do |place| %>
-  
-  // <% end %>
-  // var infowindow = new google.maps.InfoWindow({
-  //       content: '<a href='marker.url'>marker.title</a>'
-  //   });
-
-
 
   var addMarkerToMap = function (element, index, array) {  
     var marker = new google.maps.Marker({
@@ -46,11 +37,6 @@ function initMap() {
   });
 
     google.maps.event.addListener(marker, 'click', function() { 
-    //   var infowindow = new google.maps.InfoWindow({
-    //     content: '<a href='marker.url'>marker.title</a>'
-    // });
-       // infowindow.setContent(marker.id); 
-
        console.log("I have been clicked");
        infowindow.open(map, this);
     }); 
