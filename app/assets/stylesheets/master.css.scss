@@ -117,15 +117,15 @@ button.btn.btn-primary.pull-right {
 
 blockquote {
   background: #f9f9f9;
-  border-left: 10px solid #ccc;
-  border-radius: 5px;
+  // border-left: 10px solid #ccc;
+  // border-radius: 5px;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
+  // quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote:before {
   color: #ccc;
-  content: open-quote;
+  // content: open-quote;
   font-size: 3em;
   line-height: 0.1em;
   margin-right: 0.25em;
@@ -298,10 +298,17 @@ img.img-responsive {
 .place-photo {
   position: relative;
   display: block;
-  background-color: white;
-  padding: 10px;
-  border-radius: 5px;
+  // background-color: white;
+  background: url('/assets/polaroid.png');
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+  border-radius: 0px;
   margin: 20px;
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
 }
 
 .carousel {
