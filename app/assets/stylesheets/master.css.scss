@@ -23,16 +23,16 @@
   box-shadow: 1px 1px 2px 0 #d0d0d0;
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
-  border-radius: 5px;
   border:10px;
 }
 
 .place-title {
   background: white;
   border-left: 10px solid #ccc;
-  border-radius: 5px;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
+  border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 .place-title h1 {
@@ -69,7 +69,7 @@ h1, h2, h3, h4 {
 }
 
 body {
-	background: url('/assets/paper_1.png'); 
+	background: url('paper_1.png'); 
 	font-family: montserratultra_light, Arial, sans-serif;
 }
 .navbar.navbar-inverse {
@@ -181,9 +181,9 @@ blockquote p {
 	font-size: 14px;
 }
 
-.background-lightgray {
-    background-color: #eeeeee;
-}
+// .background-lightgray {
+//   background-color: #eeeeee;
+// }
 
 a {
   color: #0088cc;
@@ -351,4 +351,6 @@ p {
 
 .gem-image-inline {
   display: inline-block;
+  height: 22px;
+  width: 22px;
 }
