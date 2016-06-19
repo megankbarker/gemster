@@ -102,6 +102,12 @@ body {
 .navbar-inverse .navbar-nav > li > a {
     color: #cecece;
 }
+.navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #339966 !important;
+    background-color: transparent;
+}
+
+
 .navbar-inverse .navbar-brand {
 	color: #339966;
 	font-family: 'glacial_indifferenceregular', sans-serif;
