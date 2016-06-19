@@ -223,6 +223,7 @@ div.pagination ul {
   background-color: #ffffff;
   border: 1px solid #ddd;
   border-left-width: 0;
+  border-radius: 5px;
 }
 .pagination a:hover,
 .pagination .active a {
@@ -298,17 +299,12 @@ img.img-responsive {
 .place-photo {
   position: relative;
   display: block;
-  // background-color: white;
-  background: url('/assets/polaroid.png');
-  padding-top: 10px;
+  background-color: white;
+  padding-left: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 30px;
   border-radius: 0px;
   margin: 20px;
-  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  box-shadow: 1px 1px 2px 0 #d0d0d0;
 }
 
 .carousel {

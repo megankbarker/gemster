@@ -8,6 +8,7 @@ body {
 #wrap {
   min-height: 100%;
   height: auto;
+  background: url('cork_1.png'); 
   // /* Negative indent footer by its height */
   // margin: 0 auto -60px;
   // /* Pad bottom by footer height */
@@ -22,7 +23,7 @@ body {
 // }
 
 .global-footer {
-  background: #999999;
+  background: #aaa;
    height:100px;
 }
 
