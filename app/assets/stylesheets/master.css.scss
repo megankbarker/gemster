@@ -27,13 +27,6 @@
   border:10px;
 }
 
-// .place-title {
-//   background: rgba(20,60,40,0.3);
-//   border: 10px solid #339966;
-//   horizontal-align: center;
-//   vertical-align: center;
-// }
-
 .place-title {
     background: #f9f9f9;
   border-left: 10px solid #ccc;
@@ -41,12 +34,14 @@
   margin: 1.5em 10px;
   padding: 0.5em 10px;
 }
+
 .place-title h1 {
   background: white;
   padding: 20px;
   border-radius: 5px;
   background: #fff;
 }
+
 .col-xs-12, .col-sm-4 {
 padding-left: 0px;
 padding-right: 0px;
@@ -61,7 +56,7 @@ margin-bottom: 35px;
 .header-box {
   margin-top:120px;
   margin-left: 50px;
- }
+}
 
 .header-box h1 {
   font-size: 52px;
@@ -74,7 +69,7 @@ h1, h2, h3, h4 {
 }
 
 body {
-	background: #eeeeee;
+	background: #00ff00 url('paper_1.png'); 
 	font-family: montserratultra_light, Arial, sans-serif;
 }
 .navbar.navbar-inverse {
@@ -352,4 +347,7 @@ p {
   margin-bottom:90px;
   padding:15px;
   border:10px;
+}
+.gem-image-inline {
+  display: inline-block;
 }
