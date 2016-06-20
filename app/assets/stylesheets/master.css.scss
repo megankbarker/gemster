@@ -45,9 +45,9 @@
   // border: 1px solid #ccc;
   // border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   // border-radius: 5px;
-  margin-top:30px;
-  margin-bottom:30px;
-  padding:15px;
+  // margin-top:30px;
+  // margin-bottom:30px;
+  // padding:15px;
   // border-bottom:10px solid gray;
    border-top-left-radius: 5px;
    border-top-right-radius: 5px;
@@ -56,7 +56,7 @@
 .place-title h1 {
   // background: white;
   color: #595959;
-  padding: 20px;
+  // padding: 20px;
      border-top-left-radius: 5px;
    border-top-right-radius: 5px;
   // border-radius: 5px;
@@ -145,6 +145,9 @@ button.btn.btn-primary.pull-right {
 blockquote {
   background: #ececec;
   border-left: 10px solid #ccc;
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
   border-radius: 5px;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
@@ -331,7 +334,7 @@ hr {
     margin-top: 0px;
     margin-bottom: 20px;
     border: 0;
-    border-top: 2px solid #eeeeee;
+    border-top: 3px solid #eeeeee;
 }
 
 img.img-responsive {
