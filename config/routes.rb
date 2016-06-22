@@ -2,6 +2,8 @@ Gemster::Application.routes.draw do
   devise_for :users
   # devise_for :installs
   root 'places#index'
+  get 'privacy', to: 'static_pages#privacy'
+  get 'team', to: 'static_pages#team'
   get 'map', to: 'places#map'
   resources :places do
     resources :comments, only: :create
