@@ -99,32 +99,12 @@ function initMap() {
      <% end %>
 
   </div>
-  </div>
-</div>
+<!--   </div>
+ --></div>
+<div class="clear"></div>
 
-<div class="bulletin-board col-xs-10 col-xs-offset-1">
-  <!-- Button trigger modal -->
-<!--   <button type="button" class="btn btn-primary btn-lg pull-right" data-toggle="modal" data-target="#myModal">
-  Add a comment
-  </button> -->
-<!--   <div class="place-title"> 
-  <h1><%=@place.name%> Photos</h1>
-  </div> -->
- <!--  <br class="clr"/> -->
-<div class="place-booyah-box col-xs-12"> 
-<!-- <div class="photos">
-  <h1 class="photos pull-left">Photos</h1> -->
- <div class="clear"></div>
- <% @place.photos.each do |photo| %>
- <div class="col-xs-12 col-sm-4">
-    <div class="place-photo">
-      <%= image_tag photo.picture, :class => 'img-responsive' %> 
-      <%= photo.caption %>
-    </div>
-  </div>
 
-  <% end %> 
-  </div>
+
 </div>
 
       
@@ -148,7 +128,7 @@ function initMap() {
       <% if comment.humanized_rating.present? %> 
         <% comment.humanized_rating.times do %>
           <%= content_tag :div, class: 'gem-image-inline' do %>
-            <img src='/assets/gem8.png' alt="gem" height="22" width="22">
+            <img src='/assets/gem2.png' alt="gem" height="22" width="22">
           <% end %>
         <% end %>
       <% end %> 
@@ -158,6 +138,29 @@ function initMap() {
   </div>
 
 <% end %>
-  </div>
+<br/>
+<br/>
+
+  <br class="clr"/>
 </div>
- <div class="clear"></div>
+<hr/>
+<div class="place-title">
+  <h1>Photos</h1>
+    </div>
+    <hr />
+  <br class="clr"/>
+
+  <div class="col-xs-10 col-xs-offset-1"></div>
+ <% @place.photos.each do |photo| %>
+ <div class="col-xs-12 col-sm-4">
+    <div class="place-photo">
+      <%= image_tag photo.picture, :class => 'img-responsive' %> 
+      <%= photo.caption %>
+    </div>
+  </div>
+
+  <% end %> 
+  </div>
+  </div>
+  </div>
+   <div class="clear"></div>
