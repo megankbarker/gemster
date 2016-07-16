@@ -54,8 +54,7 @@
       <% end %>
     </div>
     </div>
-    // <!-- 
-    // <div class="clear"></div> -->
+
 
     <!-- Modal -->
     <div class="modal fade" id="myModal-photo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -101,20 +100,10 @@
          <% end %>
 
       </div>
-    <!--   </div>
-     --></div>
-    <!-- <div class="clear"></div> -->
-
-
 
     </div>
-
-          
-    <!-- <div class="clear"></div> -->
+    </div>
     <div class="reviews col-xs-10 col-xs-offset-1">
-    <!-- <div class="comments"> -->
-
-    <!--   <h1 class="comments pull-left">Comments</h1> -->
       <div class="place-title">
       <h1>Ratings and Reviews</h1>
         </div>
@@ -122,7 +111,6 @@
       <br class="clr"/>
 
         <div class="place-booyah-box col-xs-12"> 
-    <!--   <div class="clear"></div> -->
       <div class="col-xs-10 col-xs-offset-1"></div>
     <% @place.comments.each do |comment| %>
       <div class="col-xs-12 col-sm-6">
@@ -138,11 +126,9 @@
           <small><%= comment.user.email %></small>
         </blockquote>
       </div>
-
     <% end %>
     <br/>
     <br/>
-
       <br class="clr"/>
     </div>
     <hr/>
@@ -151,7 +137,6 @@
     </div>
     <hr />
     <br class="clr"/>
-
     <div class="col-xs-10 col-xs-offset-1"></div>
       <% @place.photos.each do |photo| %>
         <div class="col-xs-12 col-sm-4">
@@ -160,7 +145,6 @@
             <%= photo.caption %>
           </div>
         </div>
-
       <% end %> 
-  </div>
-       <div class="clear"></div>
+    </div>
+  <div class="clear"></div>

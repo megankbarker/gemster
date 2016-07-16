@@ -32,7 +32,7 @@
           </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><%= link_to 'All Places  ', map_path %></li>
+          <li><%= link_to 'Map', map_path %></li>
           <% if user_signed_in? %>
 <!--             <li><%= link_to 'My Profile', user_path(current_user) %></li> -->
             <li><%= link_to 'Sign out', destroy_user_session_path, method: :delete %></li>
@@ -52,28 +52,16 @@
     <p class="alert alert-danger"><%= alert %></p>
   <% end %>
 
-  <!-- sticky footer -->
+
   <%= yield %>
-
   </div> <!-- end wrap -->
-<!--   <div id="footer">
-    <div class="container">
-      <b>Footer Here</b>
-      <br />
-      <%= link_to 'Link', '#' %>
-    </div> -->
-    <!-- Global-Footer -->
   <footer class="global-footer">
-      <ul class="font-monthairline">
-          <li><a href="" class="color-gray hover-orange global-hovertransition">About Us</a></li>
-          <li><a class="color-gray hover-orange global-hovertransition" href="#">Contact</a></li> -->
-
-        <%= link_to 'About Us', team_path %>
+      <ul>
+        <li><%= link_to 'About Us ', team_path %></li>
         <br />
-         <%= link_to 'Privacy Policy', privacy_path %>
+        <li><%= link_to 'Privacy Policy', privacy_path %></li>
         <br />
-
-      </ul>
+      </ul>    
   </footer>
 </div>
 </body>
